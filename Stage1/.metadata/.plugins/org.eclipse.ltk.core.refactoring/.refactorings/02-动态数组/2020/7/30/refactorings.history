@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Person.java&apos; to &apos;03-链表/src/com.dsy&apos;&#x0A;- Original project: &apos;02-动态数组&apos;&#x0A;- Destination element: &apos;03-链表/src/com.dsy&apos;&#x0A;- Original element: &apos;com.dsy.Person.java&apos;" description="Copy compilation unit" destination="=03-链表/src&lt;com.dsy" element1="/src&lt;com.dsy{Person.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1595180568117" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ArrayList2.java&apos; to &apos;04-栈/src/com.dy.list&apos;&#x0A;- Original project: &apos;02-动态数组&apos;&#x0A;- Destination element: &apos;04-栈/src/com.dy.list&apos;&#x0A;- Original element: &apos;com.dsy.ArrayList2.java&apos;" description="Copy compilation unit" destination="=04-栈/src&lt;com.dy.list" element1="/src&lt;com.dsy{ArrayList2.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1598289679079" units="1" version="1.0"/>
+</session>

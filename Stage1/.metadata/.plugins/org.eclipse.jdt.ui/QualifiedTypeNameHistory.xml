@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.dsy.TimeTool"/>
+<fullyQualifiedTypeName name="com.dsy.TimeTool.Task"/>
+<fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="com.dsy.ArrayList"/>
+<fullyQualifiedTypeName name="com.dsy.LinkedList.Node"/>
+<fullyQualifiedTypeName name="com.dsy.List"/>
+<fullyQualifiedTypeName name="com.dsy.Person"/>
+<fullyQualifiedTypeName name="com.dsy.LinkedList"/>
+<fullyQualifiedTypeName name="_03.链表._237_删除链表中的节点.ListNode"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
+<fullyQualifiedTypeName name="org.w3c.dom.ranges.RangeException"/>
+<fullyQualifiedTypeName name="com.dsy.LinkedHeadList"/>
+<fullyQualifiedTypeName name="com.dsy.ArrayList2"/>
+<fullyQualifiedTypeName name="com.dsy.doubleLinkedList.DoubleLinkedList.Node"/>
+<fullyQualifiedTypeName name="com.dsy.doubleLinkedList.DoubleLinkedList"/>
+<fullyQualifiedTypeName name="com.dsy.AbstractList"/>
+<fullyQualifiedTypeName name="com.dsy.circle.SingleCircleLinkedList.Node"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.dsy.circle.SingleCircleLinkedList"/>
+<fullyQualifiedTypeName name="com.dsy.circle.DoubleCircleLinkedList"/>
+<fullyQualifiedTypeName name="com.dy.Stack"/>
+<fullyQualifiedTypeName name="com.dy.list.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Deque"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="com.dsy.list.AbstractList"/>
+<fullyQualifiedTypeName name="com.dsy.Queue"/>
+<fullyQualifiedTypeName name="java.util.Stack"/>
+<fullyQualifiedTypeName name="com.dsy.list.LinkedHeadList"/>
+<fullyQualifiedTypeName name="com.dsy.list.List"/>
+<fullyQualifiedTypeName name="com.dsy.Deque"/>
+<fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+<fullyQualifiedTypeName name="com.dsy.circle.CirCleQueue"/>
+<fullyQualifiedTypeName name="com.dsy.circle.CircleDeque"/>
+</qualifiedTypeNameHistroy>

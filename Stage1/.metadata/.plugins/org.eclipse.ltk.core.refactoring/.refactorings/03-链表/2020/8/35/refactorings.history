@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;04-栈/src/com.dy.list&apos;&#x0A;- Original project: &apos;03-链表&apos;&#x0A;- Destination element: &apos;04-栈/src/com.dy.list&apos;&#x0A;- Original elements:&#x0A;     com.dsy.LinkedHeadList.java&#x0A;     com.dsy.List.java&#x0A;     com.dsy.AbstractList.java&#x0A;     com.dsy.LinkedList.java" description="Copy compilation units" destination="=04-栈/src&lt;com.dy.list" element1="/src&lt;com.dsy{LinkedHeadList.java" element2="/src&lt;com.dsy{List.java" element3="/src&lt;com.dsy{AbstractList.java" element4="/src&lt;com.dsy{LinkedList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1598285504634" units="4" version="1.0"/>
+</session>

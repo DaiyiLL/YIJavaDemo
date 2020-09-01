@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.dsy.doubleLinkedList.TextDouble.java&apos; to &apos;TestDouble.java&apos;&#x0A;- Original project: &apos;03-链表&apos;&#x0A;- Original element: &apos;com.dsy.doubleLinkedList.TextDouble.java&apos;&#x0A;- Renamed element: &apos;com.dsy.doubleLinkedList.TestDouble.java&apos;" description="Rename compilation unit &apos;TextDouble.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.dsy.doubleLinkedList{TextDouble.java" name="TestDouble.java" references="false" stamp="1596990964883" version="1.0"/>
+</session>
