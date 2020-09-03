@@ -1,0 +1,5 @@
+package com.dsy.tree;
+
+public interface Comparator {
+
+}

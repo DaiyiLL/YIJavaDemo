@@ -38,4 +38,14 @@
 <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
 <fullyQualifiedTypeName name="com.dsy.circle.CirCleQueue"/>
 <fullyQualifiedTypeName name="com.dsy.circle.CircleDeque"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="com.dsy.BinarySearchTree.Node"/>
+<fullyQualifiedTypeName name="com.dsy.BinarySearchTree"/>
+<fullyQualifiedTypeName name="com.dsy.tree.BinarySearchTree"/>
+<fullyQualifiedTypeName name="com.dsy.tree.Comparable"/>
+<fullyQualifiedTypeName name="com.dsy.tree.Comparator"/>
+<fullyQualifiedTypeName name="javax.naming.BinaryRefAddr"/>
+<fullyQualifiedTypeName name="com.dsy.tree.printer.BinaryTreeInfo"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="com.dsy.tree.printer.LevelOrderPrinter"/>
 </qualifiedTypeNameHistroy>
