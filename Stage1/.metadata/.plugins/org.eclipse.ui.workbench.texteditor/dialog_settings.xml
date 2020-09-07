@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="front ="/>
+		<item key="selection" value="Comparable"/>
 		<list key="findhistory">
+			<item value="Comparable"/>
 			<item value="front ="/>
 			<item value="trim"/>
 			<item value="removeIndex"/>

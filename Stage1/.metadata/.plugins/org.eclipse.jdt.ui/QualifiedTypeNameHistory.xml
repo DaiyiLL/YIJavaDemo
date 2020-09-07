@@ -28,7 +28,6 @@
 <fullyQualifiedTypeName name="com.dy.list.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.Deque"/>
-<fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="com.dsy.list.AbstractList"/>
 <fullyQualifiedTypeName name="com.dsy.Queue"/>
 <fullyQualifiedTypeName name="java.util.Stack"/>
@@ -41,11 +40,17 @@
 <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 <fullyQualifiedTypeName name="com.dsy.BinarySearchTree.Node"/>
 <fullyQualifiedTypeName name="com.dsy.BinarySearchTree"/>
-<fullyQualifiedTypeName name="com.dsy.tree.BinarySearchTree"/>
 <fullyQualifiedTypeName name="com.dsy.tree.Comparable"/>
 <fullyQualifiedTypeName name="com.dsy.tree.Comparator"/>
 <fullyQualifiedTypeName name="javax.naming.BinaryRefAddr"/>
 <fullyQualifiedTypeName name="com.dsy.tree.printer.BinaryTreeInfo"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="com.dsy.tree.printer.LevelOrderPrinter"/>
+<fullyQualifiedTypeName name="com.dsy.tree.BinarySearchTree"/>
+<fullyQualifiedTypeName name="com.dsy.tree.printer.BinaryTrees"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="com.dsy.tree.BinarySearchTree.Visitor"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.util.Queue"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>
