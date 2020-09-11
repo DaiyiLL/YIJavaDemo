@@ -67,7 +67,7 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 	}
 	
 	public void remove(E element) {
-		remove(node(element));
+		
 	}
 	public boolean contains(E element) {
 		return false;
@@ -273,7 +273,7 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 		// 后继节点在左子树中（right.left.left.left....）
 		if (node.right != null) {
 			Node<E> suc = node.right;
-			while (suc.left != null) {
+			while (suc.left == null) {
 				suc = suc.left;
 			}
 			return suc;
@@ -432,7 +432,7 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 			node.element = s.element;
 			// 删除后继节点
 			node = s;
-//			return;
+			return;
 		}
 		
 		// 删除node节点（node的度避让是1或者0）
