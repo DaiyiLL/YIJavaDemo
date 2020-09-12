@@ -46,11 +46,13 @@
 <fullyQualifiedTypeName name="com.dsy.tree.printer.BinaryTreeInfo"/>
 <fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="com.dsy.tree.printer.LevelOrderPrinter"/>
-<fullyQualifiedTypeName name="com.dsy.tree.BinarySearchTree"/>
-<fullyQualifiedTypeName name="com.dsy.tree.printer.BinaryTrees"/>
 <fullyQualifiedTypeName name="java.lang.Comparable"/>
 <fullyQualifiedTypeName name="com.dsy.tree.BinarySearchTree.Visitor"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="org.w3c.dom.Node"/>
+<fullyQualifiedTypeName name="com.dsy.tree.BinarySearchTree"/>
+<fullyQualifiedTypeName name="com.dsy.tree.printer.BinaryTrees"/>
+<fullyQualifiedTypeName name="com.dsy.tree.AVLTree"/>
 </qualifiedTypeNameHistroy>

@@ -30,7 +30,8 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 	}
 	
 	public void clear() {
-		
+		root = null;
+		size = 0;
 	}
 	
 	public void add(E element) {
@@ -70,7 +71,7 @@ public class BinarySearchTree<E> implements BinaryTreeInfo {
 		remove(node(element));
 	}
 	public boolean contains(E element) {
-		return false;
+		return node(element) != null;
 	}
 	
 	

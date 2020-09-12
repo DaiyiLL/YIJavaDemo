@@ -40,7 +40,7 @@ public class Main {
 		}
 		BinaryTrees.println(bst);
 		
-		bst.remove(4);
+		bst.remove(7);
 		BinaryTrees.println(bst);
 	}
 	
