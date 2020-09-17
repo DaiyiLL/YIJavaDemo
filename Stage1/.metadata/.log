@@ -6878,3 +6878,809 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-12 09:25:56.607
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PCkSxMIT => OK
+!SESSION 2020-09-15 07:58:30.326 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/yidai/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/yidai/.eclipse_keyring
+
+!ENTRY org.eclipse.egit.core 1 0 2020-09-15 08:08:30.523
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2020-09-15 08:08:33.929
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-15 08:08:33.929
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b38f032,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17d83fe4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-15 08:08:33.929
+!MESSAGE A conflict occurred for COMMAND+SHIFT+F10:
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.jboss.tools.common.ui.RegisterAsService,Register As Service,
+		Adds class name to META-INF/services/%serviceType% file after service type is selected in the dialog from types extended and implemented by the class.,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d76d72a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.eclipse.ui.window.showSystemMenu,Show System Menu,
+		Show the system menu,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fd07a56,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-15 08:08:33.929
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1315befe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45649467,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-15 08:08:33.929
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e60c466,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@620e0d36,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-15 08:08:40.900
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:08:53.354
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:08:53.357
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@ace45e9[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=1478)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:08:53.359
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:08:53.544
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.865
+!MESSAGE Boot LS startup time from start to initialized: 9466ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.924
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EVXCsyjuisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.926
+!MESSAGE subscribing to classpath changes: sts4.classpath.EVXCsyju isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.930
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.935
+!MESSAGE subsribers = {sts4.classpath.EVXCsyju=Send Classpath Notifications(115)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.936
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.949
+!MESSAGE project 07-AVLTree ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.950
+!MESSAGE project 00-Test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.951
+!MESSAGE Preparing classpath changed notification 07-AVLTree
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.952
+!MESSAGE project 00-leetcode ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.952
+!MESSAGE project 01-复杂度 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.953
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.953
+!MESSAGE project 01-复杂度 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.954
+!MESSAGE project 02-动态数组 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.955
+!MESSAGE project 02-动态数组 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.958
+!MESSAGE project 03-链表 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.959
+!MESSAGE project 03-链表 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.962
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.962
+!MESSAGE project 04-栈 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.963
+!MESSAGE project 04-栈 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.963
+!MESSAGE buffering callback sts4.classpath.EVXCsyju 07-AVLTree false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.964
+!MESSAGE project 05-队列 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.964
+!MESSAGE Preparing classpath changed notification 00-Test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.965
+!MESSAGE project 05-队列 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.968
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.969
+!MESSAGE project 06-树 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.969
+!MESSAGE project 06-树 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.972
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.973
+!MESSAGE project 06-树2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.976
+!MESSAGE buffering callback sts4.classpath.EVXCsyju 00-Test false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.977
+!MESSAGE project 06-树2 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.980
+!MESSAGE Preparing classpath changed notification 00-leetcode
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.981
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.984
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.986
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.987
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.EVXCsyju => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.989
+!MESSAGE buffering callback sts4.classpath.EVXCsyju 00-leetcode false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:02.990
+!MESSAGE executing callback sts4.classpath.EVXCsyju 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 08:09:03.080
+!MESSAGE executing callback sts4.classpath.EVXCsyju SUCCESS [done]
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-15 08:11:28.122
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:32:26.234
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.EVXCsyju
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:32:26.237
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.EVXCsyju
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:32:26.238
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-15 09:32:26.241
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.EVXCsyju => OK
+
+!ENTRY org.eclipse.ui 2 2 2020-09-15 09:32:26.820
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-09-17 00:49:03.196 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/yidai/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/yidai/.eclipse_keyring
+
+!ENTRY org.eclipse.egit.core 1 0 2020-09-17 00:49:22.028
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2020-09-17 00:49:25.185
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-17 00:49:25.185
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d70e68b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2786b644,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-17 00:49:25.185
+!MESSAGE A conflict occurred for COMMAND+SHIFT+F10:
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.jboss.tools.common.ui.RegisterAsService,Register As Service,
+		Adds class name to META-INF/services/%serviceType% file after service type is selected in the dialog from types extended and implemented by the class.,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b38f032,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.eclipse.ui.window.showSystemMenu,Show System Menu,
+		Show the system menu,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17d83fe4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-17 00:49:25.185
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d76d72a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fd07a56,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-17 00:49:25.185
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1315befe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45649467,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-17 00:49:32.526
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:44.815
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:44.820
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@48c42253[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=1478)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:44.823
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:45.000
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.236
+!MESSAGE Boot LS startup time from start to initialized: 8380ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.294
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LrlvPAPTisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.295
+!MESSAGE subscribing to classpath changes: sts4.classpath.LrlvPAPT isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.308
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.312
+!MESSAGE subsribers = {sts4.classpath.LrlvPAPT=Send Classpath Notifications(113)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.313
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.327
+!MESSAGE project 07-AVLTree ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.328
+!MESSAGE project 00-Test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.330
+!MESSAGE project 00-leetcode ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.330
+!MESSAGE project 01-复杂度 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.334
+!MESSAGE Preparing classpath changed notification 07-AVLTree
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.337
+!MESSAGE project 01-复杂度 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.338
+!MESSAGE project 02-动态数组 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.343
+!MESSAGE project 02-动态数组 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.347
+!MESSAGE project 03-链表 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.351
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.353
+!MESSAGE project 03-链表 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.354
+!MESSAGE project 04-栈 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.355
+!MESSAGE project 04-栈 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.355
+!MESSAGE project 05-队列 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.359
+!MESSAGE project 05-队列 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.359
+!MESSAGE project 06-树 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.362
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.362
+!MESSAGE project 06-树 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.363
+!MESSAGE buffering callback sts4.classpath.LrlvPAPT 07-AVLTree false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.366
+!MESSAGE project 06-树2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.367
+!MESSAGE Preparing classpath changed notification 00-Test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.368
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.368
+!MESSAGE project 06-树2 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.369
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.370
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LrlvPAPT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.373
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.374
+!MESSAGE buffering callback sts4.classpath.LrlvPAPT 00-Test false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.374
+!MESSAGE Preparing classpath changed notification 00-leetcode
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.378
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.380
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.382
+!MESSAGE buffering callback sts4.classpath.LrlvPAPT 00-leetcode false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.384
+!MESSAGE executing callback sts4.classpath.LrlvPAPT 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 00:49:53.463
+!MESSAGE executing callback sts4.classpath.LrlvPAPT SUCCESS [done]
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-17 00:55:28.586
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2020-09-17 07:36:24.510
+!MESSAGE Unknown Host: http://jope.ow2.org/update/jope/content.xml
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 0 2020-09-17 08:13:28.275
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:67)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4976)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:349)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:113)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:194)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:205)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:115)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:95)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:474)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4363)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1516)
+	at org.eclipse.swt.widgets.Menu.menuWillOpen(Menu.java:808)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6142)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSMenu.popUpContextMenu(NSMenu.java:80)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:270)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4227)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3760)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.tm4e.ui.internal.menus.ThemeContribution.getContributionItems(ThemeContribution.java:59)
+	at org.eclipse.ui.actions.CompoundContributionItem.getContributionItemsToFill(CompoundContributionItem.java:83)
+	at org.eclipse.ui.actions.CompoundContributionItem.fill(CompoundContributionItem.java:57)
+	at org.eclipse.ui.internal.menus.DynamicMenuContributionItem.fill(DynamicMenuContributionItem.java:150)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:731)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:813)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:672)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1222)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeUIElementTopicAllRenderedVisibility(MenuManagerRenderer.java:203)
+	at sun.reflect.GeneratedMethodAccessor16.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 61 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 09:37:13.746
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LrlvPAPT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 09:37:13.750
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LrlvPAPT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 09:37:13.751
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 09:37:13.753
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LrlvPAPT => OK
+
+!ENTRY org.eclipse.ui 2 2 2020-09-17 09:37:14.371
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-09-17 10:01:50.654 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/yidai/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/yidai/.eclipse_keyring
+
+!ENTRY org.eclipse.egit.core 1 0 2020-09-17 10:02:07.160
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2020-09-17 10:02:10.395
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-17 10:02:10.395
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2786b644,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b38f032,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-17 10:02:10.395
+!MESSAGE A conflict occurred for COMMAND+SHIFT+F10:
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.jboss.tools.common.ui.RegisterAsService,Register As Service,
+		Adds class name to META-INF/services/%serviceType% file after service type is selected in the dialog from types extended and implemented by the class.,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17d83fe4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.eclipse.ui.window.showSystemMenu,Show System Menu,
+		Show the system menu,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d76d72a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-17 10:02:10.395
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fd07a56,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1315befe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-17 10:02:10.396
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45649467,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e60c466,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-17 10:02:17.068
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:29.273
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:29.276
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@32647dde[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=1478)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:29.279
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:29.444
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:37.800
+!MESSAGE Boot LS startup time from start to initialized: 8490ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:37.936
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LSfjteMGisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:37.940
+!MESSAGE subscribing to classpath changes: sts4.classpath.LSfjteMG isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:37.950
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:37.958
+!MESSAGE subsribers = {sts4.classpath.LSfjteMG=Send Classpath Notifications(112)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:37.959
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:37.975
+!MESSAGE project 07-AVLTree ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:37.982
+!MESSAGE project 00-Test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:37.983
+!MESSAGE Preparing classpath changed notification 07-AVLTree
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:37.985
+!MESSAGE project 00-leetcode ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:37.988
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:37.990
+!MESSAGE project 01-复杂度 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:37.991
+!MESSAGE project 01-复杂度 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:37.995
+!MESSAGE project 02-动态数组 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:37.998
+!MESSAGE project 02-动态数组 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.004
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.008
+!MESSAGE buffering callback sts4.classpath.LSfjteMG 07-AVLTree false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.009
+!MESSAGE project 03-链表 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.011
+!MESSAGE Preparing classpath changed notification 00-Test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.011
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.013
+!MESSAGE project 03-链表 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.015
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.016
+!MESSAGE buffering callback sts4.classpath.LSfjteMG 00-Test false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.019
+!MESSAGE Preparing classpath changed notification 00-leetcode
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.020
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.023
+!MESSAGE project 04-栈 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.024
+!MESSAGE project 04-栈 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.027
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.031
+!MESSAGE project 05-队列 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.032
+!MESSAGE buffering callback sts4.classpath.LSfjteMG 00-leetcode false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.035
+!MESSAGE project 05-队列 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.035
+!MESSAGE executing callback sts4.classpath.LSfjteMG 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.039
+!MESSAGE project 06-树 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.041
+!MESSAGE project 06-树 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.043
+!MESSAGE project 06-树2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.043
+!MESSAGE project 06-树2 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.044
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.045
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LSfjteMG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:02:38.117
+!MESSAGE executing callback sts4.classpath.LSfjteMG SUCCESS [done]
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-17 10:03:06.234
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:04:30.924
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LSfjteMG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:04:30.927
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LSfjteMG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:04:30.928
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-17 10:04:30.931
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LSfjteMG => OK
+
+!ENTRY org.eclipse.ui 2 2 2020-09-17 10:04:31.428
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

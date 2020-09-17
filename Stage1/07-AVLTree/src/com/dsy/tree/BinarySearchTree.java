@@ -25,7 +25,7 @@ public class BinarySearchTree<E> extends BinaryTree {
 		elementNotNullCheck(element);
 		if (root == null) {
 			// 添加空节点
-			root = new Node<>(element, null);
+			root = this.createNode(element, null);
 			size++;
 			afterAdd(root);
 			return;
@@ -46,7 +46,7 @@ public class BinarySearchTree<E> extends BinaryTree {
 				return;
 			}
 		}
-		Node<E> newNode = new Node<E>(element, parent);
+		Node<E> newNode = createNode(element, parent);
 		if (cmp > 0) {
 			parent.right = newNode;
 		} else if (cmp < 0) {

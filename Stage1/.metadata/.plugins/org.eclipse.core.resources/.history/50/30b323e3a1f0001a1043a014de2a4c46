@@ -1,6 +1,0 @@
-package _05.二叉树;
-
-// https://leetcode-cn.com/problems/invert-binary-tree/
-public class _226_翻转二叉树 {
-
-}
