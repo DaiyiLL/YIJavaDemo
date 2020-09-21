@@ -34,12 +34,6 @@ public class BinaryTree<E> implements BinaryTreeInfo {
 			this.parent = parent;
 		}
 		
-		@Override
-		public String toString() {
-			// TODO Auto-generated method stub
-			return "" + element;
-		}
-		
 		public boolean isLeaf() {
 			return (left == null && right == null);
 		}
@@ -53,6 +47,16 @@ public class BinaryTree<E> implements BinaryTreeInfo {
 		
 		public boolean isRightChild() {
 			return parent != null && this == parent.right;
+		}
+		
+		@Override
+		public String toString() {
+			// TODO Auto-generated method stub
+			String parentString = "null";
+			if (parent != null) {
+				parentString = parent.element.toString();
+			}
+			return element + "_p(" + parentString + ")";
 		}
 	}
 	
