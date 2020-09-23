@@ -241,7 +241,7 @@
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_fkqgwPSBEeqNEr9n8SEokA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="AVLTree.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AVLTree.java&quot; partName=&quot;AVLTree.java&quot; title=&quot;AVLTree.java&quot; tooltip=&quot;07-AVLTree/src/com/dsy/tree/AVLTree.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/07-AVLTree/src/com/dsy/tree/AVLTree.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;30&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3277&quot; selectionTopPixel=&quot;3278&quot;/>&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AVLTree.java&quot; partName=&quot;AVLTree.java&quot; title=&quot;AVLTree.java&quot; tooltip=&quot;07-AVLTree/src/com/dsy/tree/AVLTree.java&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/07-AVLTree/src/com/dsy/tree/AVLTree.java&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3277&quot; selectionTopPixel=&quot;3278&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
@@ -451,7 +451,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_eQL1v_PHEeq0kOZfA_yPZg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_HIbpkPtfEeqW8bipuLcIBQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_eQQHtvPHEeq0kOZfA_yPZg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_VGVYMP1qEeq8Up_Mi3geVA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_eQQHtvPHEeq0kOZfA_yPZg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_eQL1zPPHEeq0kOZfA_yPZg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -486,7 +486,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_eQL2J_PHEeq0kOZfA_yPZg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_HIf7APtfEeqW8bipuLcIBQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_eQQHR_PHEeq0kOZfA_yPZg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_VGaQsP1qEeq8Up_Mi3geVA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_eQQHR_PHEeq0kOZfA_yPZg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_eQL2MvPHEeq0kOZfA_yPZg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1030,7 +1030,7 @@
       <parameters xmi:id="_eQMdGfPHEeq0kOZfA_yPZg" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.ui.console.ConsoleView"/>
     </bindings>
     <bindings xmi:id="_eQMdGvPHEeq0kOZfA_yPZg" keySequence="COMMAND+BREAK" command="_eQPgnPPHEeq0kOZfA_yPZg"/>
-    <bindings xmi:id="_GIWsoftfEeqW8bipuLcIBQ" keySequence="COMMAND+CTRL+F" command="_eQQuT_PHEeq0kOZfA_yPZg">
+    <bindings xmi:id="_T8R_4f1qEeq8Up_Mi3geVA" keySequence="COMMAND+CTRL+F" command="_eQQuT_PHEeq0kOZfA_yPZg">
       <tags>deleted</tags>
     </bindings>
   </bindingTables>
@@ -1484,7 +1484,7 @@
     <bindings xmi:id="_eQMeRvPHEeq0kOZfA_yPZg" keySequence="CTRL+SHIFT+D" command="_eQPiH_PHEeq0kOZfA_yPZg"/>
   </bindingTables>
   <bindingTables xmi:id="_eQMeR_PHEeq0kOZfA_yPZg" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_eQMez_PHEeq0kOZfA_yPZg">
-    <bindings xmi:id="_GIX6wPtfEeqW8bipuLcIBQ" keySequence="M1+W" command="_eQQuUfPHEeq0kOZfA_yPZg">
+    <bindings xmi:id="_T8Sm8P1qEeq8Up_Mi3geVA" keySequence="M1+W" command="_eQQuUfPHEeq0kOZfA_yPZg">
       <tags>deleted</tags>
     </bindings>
   </bindingTables>
