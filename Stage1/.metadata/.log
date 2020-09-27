@@ -8170,3 +8170,2371 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.eclipse.ui 2 2 2020-09-23 17:06:38.502
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-09-24 00:21:07.395 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/yidai/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/yidai/.eclipse_keyring
+
+!ENTRY org.eclipse.egit.core 1 0 2020-09-24 00:21:22.472
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2020-09-24 00:21:25.677
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-24 00:21:25.677
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@769b1d1c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@c5e7696,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-24 00:21:25.677
+!MESSAGE A conflict occurred for COMMAND+SHIFT+F10:
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.jboss.tools.common.ui.RegisterAsService,Register As Service,
+		Adds class name to META-INF/services/%serviceType% file after service type is selected in the dialog from types extended and implemented by the class.,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f579582,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.eclipse.ui.window.showSystemMenu,Show System Menu,
+		Show the system menu,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4769e70c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-24 00:21:25.677
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69346100,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16a14076,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-24 00:21:25.677
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@65293ca5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d70e68b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-24 00:21:32.565
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:44.749
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:44.750
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4a77d2a5[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=1478)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:44.753
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:44.919
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.861
+!MESSAGE Boot LS startup time from start to initialized: 8082ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.936
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kKlbpGtcisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.937
+!MESSAGE subscribing to classpath changes: sts4.classpath.kKlbpGtc isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.943
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.947
+!MESSAGE subsribers = {sts4.classpath.kKlbpGtc=Send Classpath Notifications(113)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.948
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.957
+!MESSAGE project 07-AVLTree ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.958
+!MESSAGE project 00-Test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.961
+!MESSAGE Preparing classpath changed notification 07-AVLTree
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.962
+!MESSAGE project 00-leetcode ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.962
+!MESSAGE project 01-复杂度 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.966
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.969
+!MESSAGE project 01-复杂度 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.970
+!MESSAGE project 02-动态数组 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.973
+!MESSAGE project 02-动态数组 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.975
+!MESSAGE project 03-链表 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.977
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.978
+!MESSAGE buffering callback sts4.classpath.kKlbpGtc 07-AVLTree false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.981
+!MESSAGE project 03-链表 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.982
+!MESSAGE project 04-栈 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.982
+!MESSAGE Preparing classpath changed notification 00-Test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.985
+!MESSAGE project 04-栈 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.986
+!MESSAGE project 05-队列 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.987
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.989
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.991
+!MESSAGE project 05-队列 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.991
+!MESSAGE buffering callback sts4.classpath.kKlbpGtc 00-Test false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.995
+!MESSAGE project 06-树 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.995
+!MESSAGE Preparing classpath changed notification 00-leetcode
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.996
+!MESSAGE project 06-树 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.997
+!MESSAGE project 06-树2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:52.998
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:53.001
+!MESSAGE project 06-树2 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:53.003
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:53.003
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:53.007
+!MESSAGE buffering callback sts4.classpath.kKlbpGtc 00-leetcode false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:53.008
+!MESSAGE executing callback sts4.classpath.kKlbpGtc 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:53.011
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kKlbpGtc => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 00:21:53.099
+!MESSAGE executing callback sts4.classpath.kKlbpGtc SUCCESS [done]
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-24 00:32:41.907
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2020-09-24 07:39:19.616
+!MESSAGE Unknown Host: http://jope.ow2.org/update/jope/content.xml
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core 4 4 2020-09-24 08:23:59.972
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.dsy.tree;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+import javax.naming.BinaryRefAddr;
+
+import com.dsy.tree.BinaryTree.Node;
+import com.dsy.tree.printer.BinaryTreeInfo;
+
+public class BinarySearchTree<E> extends BinaryTree {
+	
+	private java.util.Comparator<E> comparator;
+	
+	public BinarySearchTree() {
+		this(null);
+	}
+	
+	public BinarySearchTree(java.util.Comparator<E> comparator) {
+		this.comparator = comparator;
+	}
+
+	
+	public void add(E element) {
+		elementNotNullCheck(element);
+		if (root == null) {
+			// 添加空节点
+			root = this.createNode(element, null);
+			size++;
+			afterAdd(root);
+			return;
+		}
+		// 添加的不是第一个节点
+		// 找到父节点
+		Node<E> node = root;
+		Node<E> parent = root;
+		int cmp = 0;
+		while (node != null) {
+			cmp = compare(element, node.element);
+			parent = node;
+			if (cmp > 0) {
+				node = node.right;
+			} else if (cmp < 0) {
+				node = node.left;
+			} else {
+				return;
+			}
+		}
+		Node<E> newNode = createNode(element, parent);
+		if (cmp > 0) {
+			parent.right = newNode;
+		} else if (cmp < 0) {
+			parent.left = newNode;
+		}
+		size++;
+		afterAdd(newNode);
+	}
+	
+	/*
+	 * 添加node之后的调整
+	 */
+	protected void afterAdd(Node<E> node) {
+		
+	}
+	
+	public void remove(E element) {
+		remove(node(element));
+	}
+	protected void afterRemove()
+	
+	public boolean contains(E element) {
+		return node(element) != null;
+	}
+	
+	
+	// 打印遍历
+	public void preorderTraversal() {
+		this.preorderTraversal(root);
+	}
+	private void preorderTraversal(Node<E> node) {
+		if (node == null) {
+			return;
+		}
+		System.out.println(node.element);
+		preorderTraversal(node.left);
+		preorderTraversal(node.right);
+	}
+	public void inorderTraversal() {
+		this.inorderTraversal(root);
+	}
+	private void inorderTraversal(Node<E> node) {
+		if (node == null) {
+			return;
+		}
+		inorderTraversal(node.left);
+		System.out.println(node.element);
+		inorderTraversal(node.right);
+	}
+	public void postorderTraversal() {
+		this.postorderTraversal(root);
+	}
+	private void postorderTraversal(Node<E> node) {
+		if (node == null) {
+			return;
+		}
+		postorderTraversal(node.left);
+		postorderTraversal(node.right);
+		System.out.println(node.element);
+	}
+	public void levelorderTranversal() {
+		if (root == null) return;
+		
+		Queue<Node<E>> queue = new LinkedList<Node<E>>();
+		queue.offer(root);
+		while (!queue.isEmpty()) {
+			Node<E> node = queue.poll();
+			System.out.println(node.element);
+			
+			if (node.left != null) {
+				queue.offer(node.left);
+			}
+			if (node.right != null) {
+				queue.offer(node.right);
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	private void elementNotNullCheck(E element) {
+		if (element == null) {
+			throw new IllegalArgumentException("节点不能为空");
+		}
+	}
+	
+	/*
+	 * return 0  e1==e2
+	 * return 1  e1>e2
+	 * return -1 e1<e2
+	 */
+	private int compare(E e1, E e2) {
+		if (comparator != null) {
+			return comparator.compare(e1, e2);
+		}
+		return ((java.lang.Comparable<E>)e1).compareTo(e2);
+	}
+	
+
+	private void remove(Node<E> node) {
+		if (node == null) return;
+		size --;
+		
+		// 度为2的节点
+		if (node.hasTwoChildren()) {
+			// 前驱或者后继
+			Node<E> s = successor(node);
+			// 用后继节点的值覆盖度为2 的节点的值
+			node.element = s.element;
+			// 删除后继节点
+			node = s;
+//			return;
+		}
+		
+		// 删除node节点（node的度避让是1或者0）
+		Node<E> replacement = node.left != null ? node.left : node.right;
+		if (replacement != null)  {
+			// node必定为1的节点
+			// 更改paren
+			replacement.parent = node.parent;
+			if (node.parent == null) {
+				// 度为1的节点，并且是根节点
+				root = replacement;
+			} else if (node == node.parent.left) {
+				replacement.parent.left = replacement;
+			} else {
+				replacement.parent.right = replacement;
+			}
+			
+		} else if (node.parent == null) { // 叶子节点并且是根节点
+			root = null;
+		} else { // 叶子节点，当不是根节点
+			if (node == node.parent.right) {
+				node.parent.right = null;
+			} else {
+				node.parent.left = null;
+			}
+		}
+	}
+	
+	private Node<E> node(E element) {
+		Node<E> node = root;
+		while (node != null) {
+			int cmp = compare(element, node.element);
+			if (cmp == 0) {
+				return node;
+			} 
+			if (cmp > 0) {
+				node = node.right;
+			} else {
+				node = node.left;
+			}
+		}
+		return null;
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2949)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:636)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3036)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1393)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:367)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:202)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1145)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1322)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2020-09-24 08:23:59.978
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2949)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:636)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3036)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1393)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:367)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:202)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1145)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1322)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2020-09-24 08:23:59.980
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2949)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:636)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3036)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1393)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:367)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:202)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1145)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1322)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2020-09-24 08:24:03.523
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.dsy.tree;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+import javax.naming.BinaryRefAddr;
+
+import com.dsy.tree.BinaryTree.Node;
+import com.dsy.tree.printer.BinaryTreeInfo;
+
+public class BinarySearchTree<E> extends BinaryTree {
+	
+	private java.util.Comparator<E> comparator;
+	
+	public BinarySearchTree() {
+		this(null);
+	}
+	
+	public BinarySearchTree(java.util.Comparator<E> comparator) {
+		this.comparator = comparator;
+	}
+
+	
+	public void add(E element) {
+		elementNotNullCheck(element);
+		if (root == null) {
+			// 添加空节点
+			root = this.createNode(element, null);
+			size++;
+			afterAdd(root);
+			return;
+		}
+		// 添加的不是第一个节点
+		// 找到父节点
+		Node<E> node = root;
+		Node<E> parent = root;
+		int cmp = 0;
+		while (node != null) {
+			cmp = compare(element, node.element);
+			parent = node;
+			if (cmp > 0) {
+				node = node.right;
+			} else if (cmp < 0) {
+				node = node.left;
+			} else {
+				return;
+			}
+		}
+		Node<E> newNode = createNode(element, parent);
+		if (cmp > 0) {
+			parent.right = newNode;
+		} else if (cmp < 0) {
+			parent.left = newNode;
+		}
+		size++;
+		afterAdd(newNode);
+	}
+	
+	/*
+	 * 添加node之后的调整
+	 */
+	protected void afterAdd(Node<E> node) {
+		
+	}
+	
+	public void remove(E element) {
+		remove(node(element));
+	}
+	protected void afterRemove(Node<>)
+	
+	public boolean contains(E element) {
+		return node(element) != null;
+	}
+	
+	
+	// 打印遍历
+	public void preorderTraversal() {
+		this.preorderTraversal(root);
+	}
+	private void preorderTraversal(Node<E> node) {
+		if (node == null) {
+			return;
+		}
+		System.out.println(node.element);
+		preorderTraversal(node.left);
+		preorderTraversal(node.right);
+	}
+	public void inorderTraversal() {
+		this.inorderTraversal(root);
+	}
+	private void inorderTraversal(Node<E> node) {
+		if (node == null) {
+			return;
+		}
+		inorderTraversal(node.left);
+		System.out.println(node.element);
+		inorderTraversal(node.right);
+	}
+	public void postorderTraversal() {
+		this.postorderTraversal(root);
+	}
+	private void postorderTraversal(Node<E> node) {
+		if (node == null) {
+			return;
+		}
+		postorderTraversal(node.left);
+		postorderTraversal(node.right);
+		System.out.println(node.element);
+	}
+	public void levelorderTranversal() {
+		if (root == null) return;
+		
+		Queue<Node<E>> queue = new LinkedList<Node<E>>();
+		queue.offer(root);
+		while (!queue.isEmpty()) {
+			Node<E> node = queue.poll();
+			System.out.println(node.element);
+			
+			if (node.left != null) {
+				queue.offer(node.left);
+			}
+			if (node.right != null) {
+				queue.offer(node.right);
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	private void elementNotNullCheck(E element) {
+		if (element == null) {
+			throw new IllegalArgumentException("节点不能为空");
+		}
+	}
+	
+	/*
+	 * return 0  e1==e2
+	 * return 1  e1>e2
+	 * return -1 e1<e2
+	 */
+	private int compare(E e1, E e2) {
+		if (comparator != null) {
+			return comparator.compare(e1, e2);
+		}
+		return ((java.lang.Comparable<E>)e1).compareTo(e2);
+	}
+	
+
+	private void remove(Node<E> node) {
+		if (node == null) return;
+		size --;
+		
+		// 度为2的节点
+		if (node.hasTwoChildren()) {
+			// 前驱或者后继
+			Node<E> s = successor(node);
+			// 用后继节点的值覆盖度为2 的节点的值
+			node.element = s.element;
+			// 删除后继节点
+			node = s;
+//			return;
+		}
+		
+		// 删除node节点（node的度避让是1或者0）
+		Node<E> replacement = node.left != null ? node.left : node.right;
+		if (replacement != null)  {
+			// node必定为1的节点
+			// 更改paren
+			replacement.parent = node.parent;
+			if (node.parent == null) {
+				// 度为1的节点，并且是根节点
+				root = replacement;
+			} else if (node == node.parent.left) {
+				replacement.parent.left = replacement;
+			} else {
+				replacement.parent.right = replacement;
+			}
+			
+		} else if (node.parent == null) { // 叶子节点并且是根节点
+			root = null;
+		} else { // 叶子节点，当不是根节点
+			if (node == node.parent.right) {
+				node.parent.right = null;
+			} else {
+				node.parent.left = null;
+			}
+		}
+	}
+	
+	private Node<E> node(E element) {
+		Node<E> node = root;
+		while (node != null) {
+			int cmp = compare(element, node.element);
+			if (cmp == 0) {
+				return node;
+			} 
+			if (cmp > 0) {
+				node = node.right;
+			} else {
+				node = node.left;
+			}
+		}
+		return null;
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2949)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:636)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3036)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1393)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:367)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:202)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1145)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1322)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2020-09-24 08:24:03.524
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2949)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:636)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3036)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1393)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:367)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:202)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1145)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1322)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2020-09-24 08:24:03.526
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2949)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:636)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3036)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1393)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:367)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:202)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1145)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1322)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2020-09-24 08:24:05.067
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.dsy.tree;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+import javax.naming.BinaryRefAddr;
+
+import com.dsy.tree.BinaryTree.Node;
+import com.dsy.tree.printer.BinaryTreeInfo;
+
+public class BinarySearchTree<E> extends BinaryTree {
+	
+	private java.util.Comparator<E> comparator;
+	
+	public BinarySearchTree() {
+		this(null);
+	}
+	
+	public BinarySearchTree(java.util.Comparator<E> comparator) {
+		this.comparator = comparator;
+	}
+
+	
+	public void add(E element) {
+		elementNotNullCheck(element);
+		if (root == null) {
+			// 添加空节点
+			root = this.createNode(element, null);
+			size++;
+			afterAdd(root);
+			return;
+		}
+		// 添加的不是第一个节点
+		// 找到父节点
+		Node<E> node = root;
+		Node<E> parent = root;
+		int cmp = 0;
+		while (node != null) {
+			cmp = compare(element, node.element);
+			parent = node;
+			if (cmp > 0) {
+				node = node.right;
+			} else if (cmp < 0) {
+				node = node.left;
+			} else {
+				return;
+			}
+		}
+		Node<E> newNode = createNode(element, parent);
+		if (cmp > 0) {
+			parent.right = newNode;
+		} else if (cmp < 0) {
+			parent.left = newNode;
+		}
+		size++;
+		afterAdd(newNode);
+	}
+	
+	/*
+	 * 添加node之后的调整
+	 */
+	protected void afterAdd(Node<E> node) {
+		
+	}
+	
+	public void remove(E element) {
+		remove(node(element));
+	}
+	protected void afterRemove(Node<E>)
+	
+	public boolean contains(E element) {
+		return node(element) != null;
+	}
+	
+	
+	// 打印遍历
+	public void preorderTraversal() {
+		this.preorderTraversal(root);
+	}
+	private void preorderTraversal(Node<E> node) {
+		if (node == null) {
+			return;
+		}
+		System.out.println(node.element);
+		preorderTraversal(node.left);
+		preorderTraversal(node.right);
+	}
+	public void inorderTraversal() {
+		this.inorderTraversal(root);
+	}
+	private void inorderTraversal(Node<E> node) {
+		if (node == null) {
+			return;
+		}
+		inorderTraversal(node.left);
+		System.out.println(node.element);
+		inorderTraversal(node.right);
+	}
+	public void postorderTraversal() {
+		this.postorderTraversal(root);
+	}
+	private void postorderTraversal(Node<E> node) {
+		if (node == null) {
+			return;
+		}
+		postorderTraversal(node.left);
+		postorderTraversal(node.right);
+		System.out.println(node.element);
+	}
+	public void levelorderTranversal() {
+		if (root == null) return;
+		
+		Queue<Node<E>> queue = new LinkedList<Node<E>>();
+		queue.offer(root);
+		while (!queue.isEmpty()) {
+			Node<E> node = queue.poll();
+			System.out.println(node.element);
+			
+			if (node.left != null) {
+				queue.offer(node.left);
+			}
+			if (node.right != null) {
+				queue.offer(node.right);
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	private void elementNotNullCheck(E element) {
+		if (element == null) {
+			throw new IllegalArgumentException("节点不能为空");
+		}
+	}
+	
+	/*
+	 * return 0  e1==e2
+	 * return 1  e1>e2
+	 * return -1 e1<e2
+	 */
+	private int compare(E e1, E e2) {
+		if (comparator != null) {
+			return comparator.compare(e1, e2);
+		}
+		return ((java.lang.Comparable<E>)e1).compareTo(e2);
+	}
+	
+
+	private void remove(Node<E> node) {
+		if (node == null) return;
+		size --;
+		
+		// 度为2的节点
+		if (node.hasTwoChildren()) {
+			// 前驱或者后继
+			Node<E> s = successor(node);
+			// 用后继节点的值覆盖度为2 的节点的值
+			node.element = s.element;
+			// 删除后继节点
+			node = s;
+//			return;
+		}
+		
+		// 删除node节点（node的度避让是1或者0）
+		Node<E> replacement = node.left != null ? node.left : node.right;
+		if (replacement != null)  {
+			// node必定为1的节点
+			// 更改paren
+			replacement.parent = node.parent;
+			if (node.parent == null) {
+				// 度为1的节点，并且是根节点
+				root = replacement;
+			} else if (node == node.parent.left) {
+				replacement.parent.left = replacement;
+			} else {
+				replacement.parent.right = replacement;
+			}
+			
+		} else if (node.parent == null) { // 叶子节点并且是根节点
+			root = null;
+		} else { // 叶子节点，当不是根节点
+			if (node == node.parent.right) {
+				node.parent.right = null;
+			} else {
+				node.parent.left = null;
+			}
+		}
+	}
+	
+	private Node<E> node(E element) {
+		Node<E> node = root;
+		while (node != null) {
+			int cmp = compare(element, node.element);
+			if (cmp == 0) {
+				return node;
+			} 
+			if (cmp > 0) {
+				node = node.right;
+			} else {
+				node = node.left;
+			}
+		}
+		return null;
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2949)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:636)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3036)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1393)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:367)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:202)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1145)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1322)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2020-09-24 08:24:05.068
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2949)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:636)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3036)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1393)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:367)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:202)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1145)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1322)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2020-09-24 08:24:05.070
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2949)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:636)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3036)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1393)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:367)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:202)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1145)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1322)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2020-09-24 08:24:07.092
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package com.dsy.tree;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+import javax.naming.BinaryRefAddr;
+
+import com.dsy.tree.BinaryTree.Node;
+import com.dsy.tree.printer.BinaryTreeInfo;
+
+public class BinarySearchTree<E> extends BinaryTree {
+	
+	private java.util.Comparator<E> comparator;
+	
+	public BinarySearchTree() {
+		this(null);
+	}
+	
+	public BinarySearchTree(java.util.Comparator<E> comparator) {
+		this.comparator = comparator;
+	}
+
+	
+	public void add(E element) {
+		elementNotNullCheck(element);
+		if (root == null) {
+			// 添加空节点
+			root = this.createNode(element, null);
+			size++;
+			afterAdd(root);
+			return;
+		}
+		// 添加的不是第一个节点
+		// 找到父节点
+		Node<E> node = root;
+		Node<E> parent = root;
+		int cmp = 0;
+		while (node != null) {
+			cmp = compare(element, node.element);
+			parent = node;
+			if (cmp > 0) {
+				node = node.right;
+			} else if (cmp < 0) {
+				node = node.left;
+			} else {
+				return;
+			}
+		}
+		Node<E> newNode = createNode(element, parent);
+		if (cmp > 0) {
+			parent.right = newNode;
+		} else if (cmp < 0) {
+			parent.left = newNode;
+		}
+		size++;
+		afterAdd(newNode);
+	}
+	
+	/*
+	 * 添加node之后的调整
+	 */
+	protected void afterAdd(Node<E> node) {
+		
+	}
+	
+	public void remove(E element) {
+		remove(node(element));
+	}
+	protected void afterRemove(Node<E> node)
+	
+	public boolean contains(E element) {
+		return node(element) != null;
+	}
+	
+	
+	// 打印遍历
+	public void preorderTraversal() {
+		this.preorderTraversal(root);
+	}
+	private void preorderTraversal(Node<E> node) {
+		if (node == null) {
+			return;
+		}
+		System.out.println(node.element);
+		preorderTraversal(node.left);
+		preorderTraversal(node.right);
+	}
+	public void inorderTraversal() {
+		this.inorderTraversal(root);
+	}
+	private void inorderTraversal(Node<E> node) {
+		if (node == null) {
+			return;
+		}
+		inorderTraversal(node.left);
+		System.out.println(node.element);
+		inorderTraversal(node.right);
+	}
+	public void postorderTraversal() {
+		this.postorderTraversal(root);
+	}
+	private void postorderTraversal(Node<E> node) {
+		if (node == null) {
+			return;
+		}
+		postorderTraversal(node.left);
+		postorderTraversal(node.right);
+		System.out.println(node.element);
+	}
+	public void levelorderTranversal() {
+		if (root == null) return;
+		
+		Queue<Node<E>> queue = new LinkedList<Node<E>>();
+		queue.offer(root);
+		while (!queue.isEmpty()) {
+			Node<E> node = queue.poll();
+			System.out.println(node.element);
+			
+			if (node.left != null) {
+				queue.offer(node.left);
+			}
+			if (node.right != null) {
+				queue.offer(node.right);
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	private void elementNotNullCheck(E element) {
+		if (element == null) {
+			throw new IllegalArgumentException("节点不能为空");
+		}
+	}
+	
+	/*
+	 * return 0  e1==e2
+	 * return 1  e1>e2
+	 * return -1 e1<e2
+	 */
+	private int compare(E e1, E e2) {
+		if (comparator != null) {
+			return comparator.compare(e1, e2);
+		}
+		return ((java.lang.Comparable<E>)e1).compareTo(e2);
+	}
+	
+
+	private void remove(Node<E> node) {
+		if (node == null) return;
+		size --;
+		
+		// 度为2的节点
+		if (node.hasTwoChildren()) {
+			// 前驱或者后继
+			Node<E> s = successor(node);
+			// 用后继节点的值覆盖度为2 的节点的值
+			node.element = s.element;
+			// 删除后继节点
+			node = s;
+//			return;
+		}
+		
+		// 删除node节点（node的度避让是1或者0）
+		Node<E> replacement = node.left != null ? node.left : node.right;
+		if (replacement != null)  {
+			// node必定为1的节点
+			// 更改paren
+			replacement.parent = node.parent;
+			if (node.parent == null) {
+				// 度为1的节点，并且是根节点
+				root = replacement;
+			} else if (node == node.parent.left) {
+				replacement.parent.left = replacement;
+			} else {
+				replacement.parent.right = replacement;
+			}
+			
+		} else if (node.parent == null) { // 叶子节点并且是根节点
+			root = null;
+		} else { // 叶子节点，当不是根节点
+			if (node == node.parent.right) {
+				node.parent.right = null;
+			} else {
+				node.parent.left = null;
+			}
+		}
+	}
+	
+	private Node<E> node(E element) {
+		Node<E> node = root;
+		while (node != null) {
+			int cmp = compare(element, node.element);
+			if (cmp == 0) {
+				return node;
+			} 
+			if (cmp > 0) {
+				node = node.right;
+			} else {
+				node = node.left;
+			}
+		}
+		return null;
+	}
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2949)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:636)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3036)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1393)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:367)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:202)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1145)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1322)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2020-09-24 08:24:07.093
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2949)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:636)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3036)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1393)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:367)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:202)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1145)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1322)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2020-09-24 08:24:07.095
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:2949)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:636)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3036)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1393)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:367)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:202)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1145)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1322)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:92)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 16:36:09.861
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.kKlbpGtc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 16:36:09.866
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.kKlbpGtc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 16:36:09.867
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 16:36:09.869
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.kKlbpGtc => OK
+
+!ENTRY org.eclipse.ui 2 2 2020-09-24 16:36:10.607
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-09-24 23:13:37.794 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/yidai/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/yidai/.eclipse_keyring
+
+!ENTRY org.eclipse.egit.core 1 0 2020-09-24 23:13:54.866
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2020-09-24 23:13:58.162
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-24 23:13:58.163
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d70e68b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2786b644,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-24 23:13:58.163
+!MESSAGE A conflict occurred for COMMAND+SHIFT+F10:
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.jboss.tools.common.ui.RegisterAsService,Register As Service,
+		Adds class name to META-INF/services/%serviceType% file after service type is selected in the dialog from types extended and implemented by the class.,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b38f032,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.eclipse.ui.window.showSystemMenu,Show System Menu,
+		Show the system menu,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17d83fe4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-24 23:13:58.163
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d76d72a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6fd07a56,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-24 23:13:58.163
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1315befe,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45649467,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-24 23:14:05.104
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:17.389
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:17.391
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@c7ec499[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=1478)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:17.397
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:17.776
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.754
+!MESSAGE Boot LS startup time from start to initialized: 9324ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.818
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.GZYznDjGisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.819
+!MESSAGE subscribing to classpath changes: sts4.classpath.GZYznDjG isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.830
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.836
+!MESSAGE subsribers = {sts4.classpath.GZYznDjG=Send Classpath Notifications(113)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.837
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.849
+!MESSAGE project 07-AVLTree ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.853
+!MESSAGE project 00-Test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.853
+!MESSAGE Preparing classpath changed notification 07-AVLTree
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.858
+!MESSAGE project 00-leetcode ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.858
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.860
+!MESSAGE project 01-复杂度 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.861
+!MESSAGE project 01-复杂度 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.862
+!MESSAGE project 02-动态数组 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.864
+!MESSAGE project 02-动态数组 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.865
+!MESSAGE project 03-链表 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.866
+!MESSAGE project 03-链表 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.868
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.871
+!MESSAGE project 04-栈 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.872
+!MESSAGE buffering callback sts4.classpath.GZYznDjG 07-AVLTree false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.873
+!MESSAGE project 04-栈 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.874
+!MESSAGE Preparing classpath changed notification 00-Test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.874
+!MESSAGE project 05-队列 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.875
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.875
+!MESSAGE project 05-队列 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.877
+!MESSAGE project 06-树 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.879
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.880
+!MESSAGE project 06-树 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.883
+!MESSAGE buffering callback sts4.classpath.GZYznDjG 00-Test false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.884
+!MESSAGE Preparing classpath changed notification 00-leetcode
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.887
+!MESSAGE project 06-树2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.888
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.892
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.893
+!MESSAGE project 06-树2 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.894
+!MESSAGE buffering callback sts4.classpath.GZYznDjG 00-leetcode false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.895
+!MESSAGE executing callback sts4.classpath.GZYznDjG 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.898
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.900
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.GZYznDjG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-24 23:14:26.975
+!MESSAGE executing callback sts4.classpath.GZYznDjG SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-09-24 23:24:31.810
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:00:58.367
+!MESSAGE Preparing classpath changed notification 08-B树
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:00:58.372
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:00:58.375
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:00:58.376
+!MESSAGE buffering callback sts4.classpath.GZYznDjG 08-B树 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:00:58.379
+!MESSAGE executing callback sts4.classpath.GZYznDjG 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:00:58.396
+!MESSAGE executing callback sts4.classpath.GZYznDjG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:02:19.732
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GZYznDjG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:02:19.734
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.GZYznDjG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:02:19.735
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:02:19.738
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GZYznDjG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:21.372
+!MESSAGE Boot LS startup time from start to initialized: 3512ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.846
+!MESSAGE Boot LS startup time from start to initialized: 3222ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.867
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xnaxtKCNisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.867
+!MESSAGE subscribing to classpath changes: sts4.classpath.xnaxtKCN isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.869
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.870
+!MESSAGE subsribers = {sts4.classpath.xnaxtKCN=Send Classpath Notifications(1005)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.873
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.875
+!MESSAGE project 08-B树 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.877
+!MESSAGE project 00-Test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.878
+!MESSAGE Preparing classpath changed notification 08-B树
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.881
+!MESSAGE project 00-leetcode ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.881
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.882
+!MESSAGE project 01-复杂度 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.885
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.886
+!MESSAGE project 01-复杂度 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.886
+!MESSAGE buffering callback sts4.classpath.xnaxtKCN 08-B树 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.886
+!MESSAGE project 02-动态数组 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.887
+!MESSAGE Preparing classpath changed notification 00-Test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.887
+!MESSAGE project 02-动态数组 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.888
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.888
+!MESSAGE project 03-链表 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.889
+!MESSAGE project 03-链表 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.889
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.892
+!MESSAGE project 04-栈 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.893
+!MESSAGE buffering callback sts4.classpath.xnaxtKCN 00-Test false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.897
+!MESSAGE project 04-栈 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.898
+!MESSAGE project 05-队列 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.900
+!MESSAGE Preparing classpath changed notification 00-leetcode
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.901
+!MESSAGE project 05-队列 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.901
+!MESSAGE project 06-树 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.902
+!MESSAGE project 06-树 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.905
+!MESSAGE project 06-树2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.906
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.907
+!MESSAGE project 06-树2 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.908
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.911
+!MESSAGE project 07-AVLTree ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.912
+!MESSAGE buffering callback sts4.classpath.xnaxtKCN 00-leetcode false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.913
+!MESSAGE Preparing classpath changed notification 07-AVLTree
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.914
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.915
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.915
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.918
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xnaxtKCN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.919
+!MESSAGE buffering callback sts4.classpath.xnaxtKCN 07-AVLTree false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.923
+!MESSAGE executing callback sts4.classpath.xnaxtKCN 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 00:03:26.972
+!MESSAGE executing callback sts4.classpath.xnaxtKCN SUCCESS [done]
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-25 00:08:01.404
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.oracle.com/otn_software/oepe/library/eclipse-gef-4.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:398)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-09-25 00:08:01.406
+!MESSAGE No repository found at http://download.oracle.com/otn_software/oepe/library/eclipse-gef-4.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2020-09-25 00:09:47.344
+!MESSAGE Unknown Host: http://jope.ow2.org/update/jope/content.xml
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2020-09-25 00:11:59.075
+!MESSAGE Unable to read repository at https://download.springsource.com/release/TOOLS/sts4-language-servers/e4.8/compositeContent.xml.
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387)
+	at org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:573)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:557)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.SNIAwareHttpClient$1.connectSocket(SNIAwareHttpClient.java:64)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:414)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:01:00.049
+!MESSAGE Preparing classpath changed notification 07-AVLTree
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:01:00.050
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:01:00.051
+!MESSAGE buffering callback sts4.classpath.xnaxtKCN 07-AVLTree true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:01:00.051
+!MESSAGE executing callback sts4.classpath.xnaxtKCN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:01:00.095
+!MESSAGE executing callback sts4.classpath.xnaxtKCN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:01:11.618
+!MESSAGE Preparing classpath changed notification 09-红黑树
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:01:11.619
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:01:11.621
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:01:11.624
+!MESSAGE buffering callback sts4.classpath.xnaxtKCN 09-红黑树 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:01:11.629
+!MESSAGE executing callback sts4.classpath.xnaxtKCN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:01:11.649
+!MESSAGE executing callback sts4.classpath.xnaxtKCN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:02:07.011
+!MESSAGE Preparing classpath changed notification 08-B树
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:02:07.013
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:02:07.014
+!MESSAGE buffering callback sts4.classpath.xnaxtKCN 08-B树 true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:02:07.016
+!MESSAGE executing callback sts4.classpath.xnaxtKCN 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 08:02:07.040
+!MESSAGE executing callback sts4.classpath.xnaxtKCN SUCCESS [done]
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-25 08:22:12.673
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 15:15:12.580
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xnaxtKCN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 15:15:12.583
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.xnaxtKCN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 15:15:12.584
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 15:15:12.587
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xnaxtKCN => OK
+!SESSION 2020-09-25 23:43:04.651 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/yidai/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/yidai/.eclipse_keyring
+
+!ENTRY org.eclipse.egit.core 1 0 2020-09-25 23:43:28.383
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2020-09-25 23:43:31.561
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-25 23:43:31.561
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3a286095,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@26723525,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-25 23:43:31.561
+!MESSAGE A conflict occurred for COMMAND+SHIFT+F10:
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.jboss.tools.common.ui.RegisterAsService,Register As Service,
+		Adds class name to META-INF/services/%serviceType% file after service type is selected in the dialog from types extended and implemented by the class.,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11c40a65,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+F10,
+	ParameterizedCommand(Command(org.eclipse.ui.window.showSystemMenu,Show System Menu,
+		Show the system menu,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@68c3aa38,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-25 23:43:31.561
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1196537d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@267a8777,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-25 23:43:31.561
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@175c26ff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@623bdc46,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-25 23:43:38.407
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:43:50.444
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:43:50.446
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2a9464d9[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=1478)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:43:50.447
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:43:50.619
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:43:59.893
+!MESSAGE Boot LS startup time from start to initialized: 9418ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:43:59.999
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zjXmyQbtisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.000
+!MESSAGE subscribing to classpath changes: sts4.classpath.zjXmyQbt isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.009
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.017
+!MESSAGE subsribers = {sts4.classpath.zjXmyQbt=Send Classpath Notifications(113)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.018
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.056
+!MESSAGE project 09-红黑树 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.061
+!MESSAGE project 00-Test ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.061
+!MESSAGE Preparing classpath changed notification 09-红黑树
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.064
+!MESSAGE project 00-leetcode ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.066
+!MESSAGE project 01-复杂度 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.068
+!MESSAGE project 01-复杂度 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.069
+!MESSAGE project 02-动态数组 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.073
+!MESSAGE project 02-动态数组 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.076
+!MESSAGE project 03-链表 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.078
+!MESSAGE project 03-链表 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.080
+!MESSAGE project 04-栈 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.081
+!MESSAGE project 04-栈 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.084
+!MESSAGE project 05-队列 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.085
+!MESSAGE project 05-队列 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.088
+!MESSAGE project 06-树 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.089
+!MESSAGE project 06-树 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.090
+!MESSAGE project 06-树2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.091
+!MESSAGE project 06-树2 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.094
+!MESSAGE project 07-AVLTree ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.095
+!MESSAGE project 07-AVLTree SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.099
+!MESSAGE project 08-B树 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.102
+!MESSAGE project 08-B树 SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.102
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.105
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zjXmyQbt => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.106
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.117
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.119
+!MESSAGE buffering callback sts4.classpath.zjXmyQbt 09-红黑树 false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.122
+!MESSAGE Preparing classpath changed notification 00-Test
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.123
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.127
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.128
+!MESSAGE buffering callback sts4.classpath.zjXmyQbt 00-Test false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.130
+!MESSAGE Preparing classpath changed notification 00-leetcode
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.130
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.135
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.137
+!MESSAGE buffering callback sts4.classpath.zjXmyQbt 00-leetcode false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.139
+!MESSAGE executing callback sts4.classpath.zjXmyQbt 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-25 23:44:00.308
+!MESSAGE executing callback sts4.classpath.zjXmyQbt SUCCESS [done]
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-25 23:54:28.083
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.oracle.com/otn_software/oepe/library/eclipse-mpc-1.6.3.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:398)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-09-25 23:54:28.085
+!MESSAGE No repository found at http://download.oracle.com/otn_software/oepe/library/eclipse-mpc-1.6.3.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2020-09-25 23:56:42.397
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.oracle.com/otn_software/oepe/library/eclipse-m2e-1.8.2.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:398)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:353)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:244)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:168)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:770)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2020-09-25 23:56:42.398
+!MESSAGE No repository found at http://download.oracle.com/otn_software/oepe/library/eclipse-m2e-1.8.2.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2020-09-25 23:58:19.359
+!MESSAGE Unknown Host: http://jope.ow2.org/update/jope/content.xml
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface.text 2 0 2020-09-26 08:08:30.352
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.ui 2 2 2020-09-26 08:24:06.937
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-26 11:40:02.268
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zjXmyQbt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-26 11:40:02.272
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zjXmyQbt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-26 11:40:02.273
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-09-26 11:40:02.275
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zjXmyQbt => OK
