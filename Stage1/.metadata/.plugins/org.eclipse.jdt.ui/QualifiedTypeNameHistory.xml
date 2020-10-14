@@ -52,8 +52,10 @@
 <fullyQualifiedTypeName name="java.util.Queue"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="org.w3c.dom.Node"/>
-<fullyQualifiedTypeName name="com.dsy.tree.printer.BinaryTrees"/>
 <fullyQualifiedTypeName name="com.dsy.tree.AVLTree"/>
 <fullyQualifiedTypeName name="com.dsy.tree.AVLTree.AVLNode"/>
 <fullyQualifiedTypeName name="com.dsy.tree.BinarySearchTree"/>
+<fullyQualifiedTypeName name="com.dsy.tree.RBTree"/>
+<fullyQualifiedTypeName name="com.dsy.tree.printer.BinaryTrees"/>
+<fullyQualifiedTypeName name="com.dsy.tree.RBTree.RBNode"/>
 </qualifiedTypeNameHistroy>
