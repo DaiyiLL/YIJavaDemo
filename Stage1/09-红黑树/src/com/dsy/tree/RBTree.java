@@ -196,7 +196,95 @@ public class RBTree<E> extends BBST<E> {
 			}
 			
 		}
-		
+	}
+	
+	@Override
+	protected void afterRemove(Node<E> node) {
+		// TODO Auto-generated method stub
+		// 如果删除的节点是红色
+		if (isRed(node)) return;
+		// 如果取代的node的子节点是红色的
+		if (isRed(replacement)) {
+			black(replacement);
+			return;
+		}
+		Node<E> parent = node.parent;
+		// 删除的是根节点
+		if (parent == null) return;
+		// 删除的是黑色叶子节点
+		// 被删除的node是做还是有
+		boolean left = parent.left == null || node.isLeftChild();
+		Node<E> sibling = left ? parent.right : parent.left; 
+		if (left) {
+			// 被删除的节点在左边，兄弟节点在右边
+			if (isRed(sibling)) {
+				// 兄弟节点是红色
+				black(sibling);
+				red(parent);
+				rotateLeft(parent);
+				
+				// 更换兄弟
+				sibling = parent.right;
+			}
+			
+			// 兄弟节点必然是黑色
+			if (isBlack(sibling.left) && isBlack(sibling.right)) {
+				// 兄弟节点没有1个红色子节点，父节点要想下跟兄弟节点合作
+				boolean parentBlack = isBlack(parent);
+				black(parent);
+				red(sibling);
+				if (parentBlack) {
+					afterRemove(parent, null);
+				}
+			} else {
+				// 兄弟节点至少一个红色节点，向兄弟节点借元素
+				if (isBlack(sibling.right)) {
+					// 左边是黑色，兄弟要先旋转
+					rotateRight(sibling);
+					sibling = parent.right;
+				}
+				color(sibling, colorOf(parent));
+				black(sibling.right);
+				black(parent);
+				
+				rotateLeft(parent);
+			}
+		} else {
+			// 被删除的节点在右边，兄弟节点在左边
+			if (isRed(sibling)) {
+				// 兄弟节点是红色
+				black(sibling);
+				red(parent);
+				rotateRight(parent);
+				
+				// 更换兄弟
+				sibling = parent.left;
+			}
+			
+			// 兄弟节点必然是黑色
+			if (isBlack(sibling.left) && isBlack(sibling.right)) {
+				// 兄弟节点没有1个红色子节点，父节点要想下跟兄弟节点合作
+				boolean parentBlack = isBlack(parent);
+				black(parent);
+				red(sibling);
+				if (parentBlack) {
+					afterRemove(parent, null);
+				}
+			} else {
+				// 兄弟节点至少一个红色节点，向兄弟节点借元素
+				if (isBlack(sibling.left)) {
+					// 左边是黑色，兄弟要先旋转
+					rotateLeft(sibling);
+					sibling = parent.left;
+				}
+				color(sibling, colorOf(parent));
+				black(sibling.left);
+				black(parent);
+				
+				rotateRight(parent);
+			}
+			
+		}
 	}
 	
 	

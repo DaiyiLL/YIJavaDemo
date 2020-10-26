@@ -22,7 +22,7 @@ public class Main {
 		BinaryTrees.println(rbTree);
 		
 		for (int i = 0; i < data.length; i++) {
-			rbTree.remove(i);
+			rbTree.remove(data[i]);
 			BinaryTrees.println(rbTree);
 		}
 	}

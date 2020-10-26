@@ -69,6 +69,8 @@ public class BinarySearchTree<E> extends BinaryTree {
 	protected void afterRemove(Node<E> node, Node<E>replacement) {
 	}
 	
+	protected void afterRemove(Node<E> node) {}
+	
 	public boolean contains(E element) {
 		return node(element) != null;
 	}
@@ -180,12 +182,14 @@ public class BinarySearchTree<E> extends BinaryTree {
 			}
 			
 			// 被删除的节点
-			afterRemove(node, replacement);
+//			afterRemove(node, replacement);
+			afterRemove(node);
 		} else if (node.parent == null) { // 叶子节点并且是根节点
 			root = null;
 			
 			// 被删除的节点
-			afterRemove(node, null);
+//			afterRemove(node, null);
+			afterRemove(node);
 		} else { // 叶子节点，当不是根节点
 			if (node == node.parent.right) {
 				node.parent.right = null;
@@ -193,7 +197,8 @@ public class BinarySearchTree<E> extends BinaryTree {
 				node.parent.left = null;
 			}
 			// 被删除的节点
-			afterRemove(node, null);
+//			afterRemove(node, null);
+			afterRemove(node);
 		}
 	}
 	
