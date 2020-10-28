@@ -202,10 +202,10 @@ public class RBTree<E> extends BBST<E> {
 	protected void afterRemove(Node<E> node) {
 		// TODO Auto-generated method stub
 		// 如果删除的节点是红色
-		if (isRed(node)) return;
-		// 如果取代的node的子节点是红色的
-		if (isRed(replacement)) {
-			black(replacement);
+//		if (isRed(node)) return;
+		// 如果取代的node的子节点是红色的, 或者删除的几点是红色
+		if (isRed(node)) {
+			black(node);
 			return;
 		}
 		Node<E> parent = node.parent;
