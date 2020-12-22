@@ -1,7 +1,6 @@
 package com.dsy.map;
 
 import com.dsy.tree.RBTree;
-import com.dsy.tree.BinaryTree.Node;
 
 public class TreeMap<K, V> implements Map<K, V> {
 	private static final boolean RED = false;
