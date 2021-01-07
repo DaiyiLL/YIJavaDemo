@@ -27,10 +27,8 @@ public class Main {
 		for (int i = 0; i < data.length; i++) {
 			if (heap.size() < k) {
 				heap.add(data[i]);
-			} else {
-				if (data[i] > heap.get()) {
-					heap.replace(data[i]);
-				}
+			} else if (data[i] > heap.get()) {
+				heap.replace(data[i]);
 			}
 		}
 		BinaryTrees.println(heap);
