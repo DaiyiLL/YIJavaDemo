@@ -2,17 +2,20 @@ package com.dsy;
 
 import java.util.Arrays;
 
-import com.dsy.sort.BubbleSort2;
-import com.dsy.sort.HeapSort;
-import com.dsy.sort.QuickSort;
-import com.dsy.sort.SelectionSort;
+import com.dsy.sort.CountingSort;
+import com.dsy.sort.RadixSort;
 import com.dsy.sort.Sort;
+import com.dsy.sort.comparable.BubbleSort2;
+import com.dsy.sort.comparable.HeapSort;
+import com.dsy.sort.comparable.InsertionSort;
+import com.dsy.sort.comparable.InsertionSort2;
+import com.dsy.sort.comparable.InsertionSort3;
+import com.dsy.sort.comparable.Integers;
+import com.dsy.sort.comparable.MergeSort;
+import com.dsy.sort.comparable.QuickSort;
+import com.dsy.sort.comparable.SelectionSort;
+import com.dsy.sort.comparable.ShellSort;
 import com.dsy.tools.Asserts;
-import com.dsy.tools.InsertionSort;
-import com.dsy.tools.InsertionSort2;
-import com.dsy.tools.InsertionSort3;
-import com.dsy.tools.Integers;
-import com.dsy.tools.MergeSort;
 import com.dsy.tools.Times;
 
 @SuppressWarnings("rawtypes")
@@ -27,23 +30,26 @@ public class Main {
 //		Asserts.test(BinarySearch.indexOf(array, 10) == 4);
 //		Asserts.test(BinarySearch.indexOf(array, 56) == -1);
 
-		Integer[] array = Integers.random(50000, 1, 20000);
+		Integer[] array = Integers.random(20000, 1, 20000);
 //		testSorts(array, 
 //				new HeapSort(), 
 //				new SelectionSort(), 
 //				new BubbleSort2(), 
 //				new InsertionSort());
 		
-		
+//		Integer[] array = {7, 3, 5, 8, 6, 7, 4, 5};
 		testSorts(array, 
-				new HeapSort(), 
+//				new HeapSort(), 
 //				new SelectionSort(), 
 //				new BubbleSort2(), 
 //				new InsertionSort(),
 //				new InsertionSort2<>(),
-				new InsertionSort3<>(),
+//				new InsertionSort3<>(),
 				new MergeSort<Integer>(),
-				new QuickSort<Integer>()
+				new QuickSort<Integer>(),
+//				new ShellSort<Integer>(),
+				new CountingSort(),
+				new RadixSort()
 				);
 	}
 	
@@ -53,6 +59,7 @@ public class Main {
 			Integer[] newArray = Integers.copy(array);
 			sort.sort(newArray);
 			Asserts.test(Integers.isAscOrder(newArray));
+//			Integers.println(newArray);
 		}
 		Arrays.sort(sorts);
 		for (Sort sort : sorts) {
@@ -143,4 +150,5 @@ public class Main {
 			end = sortIndex;
 		}
 	}
+	
 }

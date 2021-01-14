@@ -1,4 +1,4 @@
-package com.dsy.tools;
+package com.dsy.sort.comparable;
 
 import java.util.Arrays;
 

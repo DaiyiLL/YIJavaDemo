@@ -78,7 +78,7 @@ public abstract class Sort<E extends Comparable<E>> implements Comparable<Sort<E
 		return fmt.format(number / 100000000.0) + "亿";
 	}
 	
-	private boolean isStable() {
+	protected boolean isStable() {
 		Student[] students = new Student[20];
 		for (int i = 0; i < 20; i++) {
 			students[i] = new Student(i * 10, 10, i + "");

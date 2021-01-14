@@ -1,4 +1,6 @@
-package com.dsy.sort;
+package com.dsy.sort.comparable;
+
+import com.dsy.sort.Sort;
 
 public class BubbleSorted<E extends Comparable<E>> extends Sort<E> {
 
