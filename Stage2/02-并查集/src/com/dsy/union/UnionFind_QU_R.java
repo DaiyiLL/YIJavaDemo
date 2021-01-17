@@ -59,14 +59,14 @@ public class UnionFind_QU_R extends UnionFind_QU {
 //		int p2 = find(v2);
 //		if (p1 == p2) return;
 		
-		if (ranks[p1] < ranks[p2]) {
-			parents[p1] = p2;
-		} else if (ranks[p1] > ranks[p2]) {
-			parents[p2] = p1;
-		} else {
-			parents[p1] = p2;
-			ranks[p2] += 1;
-		}
+//		if (ranks[p1] < ranks[p2]) {
+//			parents[p1] = p2;
+//		} else if (ranks[p1] > ranks[p2]) {
+//			parents[p2] = p1;
+//		} else {
+//			parents[p1] = p2;
+//			ranks[p2] += 1;
+//		}
 	}
 
 }

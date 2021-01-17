@@ -2,6 +2,7 @@ package com.dsy;
 
 import com.dsy.tools.Asserts;
 import com.dsy.tools.Times;
+import com.dsy.union.GenericUnionFind;
 import com.dsy.union.UnionFind;
 import com.dsy.union.UnionFind_QF;
 import com.dsy.union.UnionFind_QU;
@@ -22,29 +23,116 @@ public class Main {
 //		test(new UnionFind_QF(12));
 //		test(new UnionFind_QU(12));
 //		test(new UnionFind_QU_S(12));
+//		test(new GenericUnionFind<Integer>());
+		
 		
 //		testTime(new UnionFind_QF(count));
 //		testTime(new UnionFind_QU(count));
-		testTime(new UnionFind_QU_S(count));
-		testTime(new UnionFind_QU_R(count));
+//		testTime(new UnionFind_QU_S(count));
+//		testTime(new UnionFind_QU_R(count));
 		testTime(new UnionFind_QU_R_PC(count));
 		testTime(new UnionFind_QU_R_PS(count));
 		testTime(new UnionFind_QU_R_PH(count));
+		testTime(new GenericUnionFind<Integer>());
+		
+//		GenericUnionFind<Student> uf = new GenericUnionFind<>();
+//		Student stu1 = new Student(10, "jack");
+//		Student stu2 = new Student(20, "rose");
+//		
+//		Student stu3 = new Student(15, "jack");
+//		Student stu4 = new Student(18, "rose");
+//		
+//		uf.makeSet(stu1);
+//		uf.makeSet(stu2);
+//		uf.makeSet(stu3);
+//		uf.makeSet(stu4);
+//		
+//		uf.union(stu1, stu2);
+//		System.out.println(uf.find(stu1).getAge());
+////		Asserts.test(uf.isSame(stu1, stu2));
+//		uf.union(stu3, stu4);
+//		
+//		Asserts.test(uf.isSame(stu3, stu4));
+//		Asserts.test(!uf.isSame(stu1, stu3));
+//		
+//		uf.union(stu1, stu4);
+//		Asserts.test(uf.isSame(stu1, stu3));
 	}
 	
-	static void testTime(UnionFind  uf) {
+	static void testTime(GenericUnionFind<Integer> uf) {
+		for (int i = 0; i < count; i++) {
+			uf.makeSet(i);
+		}
+		
+		uf.union(0, 1);
+		uf.union(0, 3);
+		uf.union(0, 4);
+		uf.union(2, 3);
+		uf.union(2, 5);
+		
+		uf.union(6, 7);
+
+		uf.union(8, 10);
+		uf.union(9, 10);
+		uf.union(9, 11);
+		
+		Asserts.test(!uf.isSame(2, 7));
+
+		uf.union(4, 6);
+		
+		Asserts.test(uf.isSame(2, 7));
+		
 		Times.test(uf.getClass().getSimpleName(), () -> {
 			for (int i = 0; i < count; i++) {
-				uf.union((int)(Math.random() * count), (int)(Math.random() * count));
+				uf.union((int)(Math.random() * count), 
+						(int)(Math.random() * count));
 			}
-			System.out.println("union complete");
+			
 			for (int i = 0; i < count; i++) {
-				uf.isSame((int)(Math.random() * count), (int)(Math.random() * count));
+				uf.isSame((int)(Math.random() * count), 
+						(int)(Math.random() * count));
 			}
-		});	
+		});
 	}
 	
-	static void test(UnionFind  uf) {
+	static void testTime(UnionFind uf) {
+		uf.union(0, 1);
+		uf.union(0, 3);
+		uf.union(0, 4);
+		uf.union(2, 3);
+		uf.union(2, 5);
+		
+		uf.union(6, 7);
+
+		uf.union(8, 10);
+		uf.union(9, 10);
+		uf.union(9, 11);
+		
+		Asserts.test(!uf.isSame(2, 7));
+
+		uf.union(4, 6);
+		
+		Asserts.test(uf.isSame(2, 7));
+		
+		Times.test(uf.getClass().getSimpleName(), () -> {
+			for (int i = 0; i < count; i++) {
+				uf.union((int)(Math.random() * count), 
+						(int)(Math.random() * count));
+			}
+			
+			for (int i = 0; i < count; i++) {
+				uf.isSame((int)(Math.random() * count), 
+						(int)(Math.random() * count));
+			}
+		});
+	}
+	
+	
+	static void test(GenericUnionFind<Integer> uf) {
+		for (int i = 0; i < count; i++) {
+			uf.makeSet(i);
+		}
+		
 		uf.union(0, 1);
 		uf.union(0, 3);
 		uf.union(0, 4);
