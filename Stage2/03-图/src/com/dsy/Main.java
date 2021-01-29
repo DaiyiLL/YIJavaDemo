@@ -37,7 +37,21 @@ public class Main {
 //		testTopo();
 //		testMst();
 		
-		testSP();
+//		testSP();
+		
+		testMulTiSP();
+	}
+	
+	private static void testMulTiSP() {
+		Graph<Object, Double> graph = directedGraph(Data.NEGATIVE_WEIGHT1);
+		Map<Object, Map<Object, PathInfo<Object, Double>>> sp = graph.shortedestMulPath();
+		if (sp == null) return;
+		sp.forEach((Object from, Map<Object, PathInfo<Object, Double>> paths) -> {
+			System.out.println(from + "---------------------------");
+			paths.forEach((Object to, PathInfo<Object, Double> path) -> {
+				System.out.println(to + " - " + path);
+			});
+		});
 	}
 	
 	private static void testSP() {

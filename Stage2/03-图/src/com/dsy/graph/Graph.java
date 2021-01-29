@@ -34,6 +34,7 @@ public abstract class Graph<V, E> {
 	
 	public abstract Map<V, E> shortedestPath(V begin);
 	public abstract Map<V, PathInfo<V, E>> shortedestPathInfo(V begin);
+	public abstract Map<V, Map<V, PathInfo<V, E>>> shortedestMulPath();
 	
 	
 	public interface VertexVisitor<V> {
@@ -50,6 +51,14 @@ public abstract class Graph<V, E> {
 	public static class PathInfo<V, E> {
 		protected E weight;
 		protected List<EdgeInfo<V, E>> edgeInfos = new LinkedList<>();
+		
+		public PathInfo() {
+			super();
+		}
+		public PathInfo(E weight) {
+			super();
+			this.weight = weight;
+		}
 		public E getWeight() {
 			return weight;
 		}
