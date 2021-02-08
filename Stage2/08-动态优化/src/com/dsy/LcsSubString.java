@@ -1,6 +1,5 @@
 package com.dsy;
 
-import java.util.Iterator;
 
 public class LcsSubString {
 
@@ -8,6 +7,14 @@ public class LcsSubString {
 		System.out.println(lcs("ABDCBA", "ABBA"));
 	}
 	
+	
+	
+	/**
+	 * 动态规划
+	 * @param str1
+	 * @param str2
+	 * @return
+	 */
 	static int lcs(String str1, String str2) {
 		if (str1 == null || str2 == null) return 0;
 		char[] chars1 = str1.toCharArray();
