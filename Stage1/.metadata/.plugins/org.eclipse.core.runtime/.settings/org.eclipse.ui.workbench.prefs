@@ -22,6 +22,13 @@ org.eclipse.mylyn.wikitext.ui.presentation.textFont=1|Menlo|18.0|0|COCOA|1|Menlo
 org.eclipse.pde.internal.ui.compare.ManifestContentMergeViewer=1|Menlo|18.0|0|COCOA|1|Menlo-Regular;
 org.eclipse.pde.internal.ui.compare.PluginContentMergeViewer=1|Menlo|18.0|0|COCOA|1|Menlo-Regular;
 org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands/>
+org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_END=255,255,255
+org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START=255,255,255
+org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_TEXT_COLOR=16,16,16
+org.eclipse.ui.workbench.ACTIVE_TAB_BG_END=255,255,255
+org.eclipse.ui.workbench.ACTIVE_TAB_BG_START=230,230,230
+org.eclipse.ui.workbench.INACTIVE_TAB_BG_END=255,255,255
+org.eclipse.ui.workbench.INACTIVE_TAB_BG_START=240,240,240
 org.eclipse.wst.jsdt.internal.ui.compare.JavaMergeViewer=1|Menlo|18.0|0|COCOA|1|Menlo-Regular;
 org.eclipse.wst.jsdt.ui.editors.textfont=1|Menlo|18.0|0|COCOA|1|Menlo-Regular;
 org.eclipse.wst.sse.ui.textfont=1|Menlo|18.0|0|COCOA|1|Menlo-Regular;
